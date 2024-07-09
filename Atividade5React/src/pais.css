@@ -1,0 +1,61 @@
+#paises {
+  width: 800px;
+  border-collapse: collapse;
+  /* Esta propriedade especifica que as bordas das células da tabela serão combinadas em uma única borda, 
+  em vez de serem exibidas separadamente. Isso cria uma aparência mais limpa para a tabela, eliminando espaços entre as células. */
+}
+
+#paises td, #paises th {
+  /* Este seletor aplica estilos para todas as células de dados (td) e cabeçalhos de tabela (th) que estão dentro do elemento com o ID paises. 
+  O seletor #paises especifica o contexto para aplicar esses estilos. */
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#paises th {
+  /* são aplicados estilos especificamente para os cabeçalhos de tabela (th) dentro do elemento com o ID paises. */
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+#paises img {
+  width: 50px; 
+  height: auto; 
+  /* Esta regra mantém a proporção original das imagens,  o navegador ajustará automaticamente a altura da imagem para manter a proporção original em relação à largura definida como 50 pixels. 
+  Isso evita que as imagens fiquem distorcidas, garantindo que mantenham suas proporções naturais. */
+}
+
+#tabela-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#paises, #paises2 {
+  width: 45%;
+  border-collapse: collapse;
+}
+
+#paises td, #paises th, #paises2 td, #paises2 th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+#paises th, #paises2 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f2f2f2;
+}
+
+#paises img, #paises2 img {
+  width: 50px; 
+  height: auto; 
+}
+
+#paises, #paises2 {
+  width: 45%;
+  border-collapse: collapse;
+  margin: 0 20px; /* Isso adiciona uma margem de 20 pixels à esquerda e à direita da tabela */
+}
